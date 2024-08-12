@@ -5,21 +5,13 @@
   "devFiles": [
     "static/chunks/react-refresh.js"
   ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
     "static/development/_buildManifest.js",
     "static/development/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -30,15 +22,25 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/index2": [
+    "/contact": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/index2.js"
+      "static/chunks/pages/contact.js"
     ],
-    "/index4": [
+    "/projects": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/index4.js"
+      "static/chunks/pages/projects.js"
+    ],
+    "/services": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/services.js"
+    ],
+    "/shop": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/shop.js"
     ]
   },
   "ampFirstPages": []
